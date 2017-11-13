@@ -17,4 +17,5 @@ def measurements(request):
         for place in places:
             m = Measurement(value=random.randint(-30, 45), place=place)
             m.save()
+            print "INFO: Great, measurement successfully detected .."
         time.sleep(1800) # 30 mins
