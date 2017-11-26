@@ -1,0 +1,14 @@
+API_BE_RPI3:
+# esporre servizio rest misure
+    # GET list of place
+    # GET list of all measurements
+    # GET detail of place
+    # GET detail of measurement
+
+    # filter measurement by value
+    # filter measurement by place
+    # filter measurement by timestamp
+
+
+- fare il dump del db rpi3
+- mostrare dati in grafico

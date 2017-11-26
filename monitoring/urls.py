@@ -15,8 +15,19 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
+from rest_framework.routers import DefaultRouter
+from be_rpi3.views import PlaceViewSet, MeasurementViewSet
+
+router_v1 = DefaultRouter()
+router_v1.register(r'places', PlaceViewSet)
+router_v1.register(r'measurements', MeasurementViewSet)
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^measurements/', include('be_rpi3.urls')),
+
+    # APIrest
+    url(r'^api/v1/', include(router_v1.urls, namespace='api-root')),
+
+
 ]
