@@ -1,0 +1,6 @@
+RELEASE: apirest dom 26-11-2017 h17:20
+Apirest be ruspberryPi3:
+- esposto servizio rest lista e dettaglio dei modelli del database
+- filtro dei dati per valore, data, luogo
+
+*******************************************************************
