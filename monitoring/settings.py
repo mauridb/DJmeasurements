@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'be_rpi3',
     'be_mainlocal',
     'rest_framework',
+    'jchart',
 ]
 
 MIDDLEWARE = [

@@ -25,6 +25,7 @@ router_v1.register(r'measurements', MeasurementViewSet)
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^measurements/', include('be_rpi3.urls')),
+    url(r'^dashboard/', include('dashboard.urls')),
 
     # APIrest
     url(r'^api/v1/', include(router_v1.urls, namespace='api-root')),

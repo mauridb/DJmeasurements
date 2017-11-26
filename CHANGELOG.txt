@@ -4,3 +4,13 @@ Apirest be ruspberryPi3:
 - filtro dei dati per valore, data, luogo
 
 *******************************************************************
+
+
+RELEASE: graphic dom 26-11-2017 h18:35
+Data in radar chart:
+- realizzata una bozza di pagina di dashboard che mostra i dati presi dal db in un radar chart
+- linkato template dashboard @http://localhost:8000/dashboard
+
+*******************************************************************
+
+
